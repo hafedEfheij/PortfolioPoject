@@ -1,24 +1,24 @@
 {
-  "name": "portfolio",
+  "name": "FirstProject-hello-microverse",
   "version": "1.0.0",
-  "description": "<a name=\"readme-top\"></a>",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dennis-every/portfolio.git"
+    "url": "git+https://github.com/hafedEfheij/FirstProject-hello-microverse.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dennis-every/portfolio/issues"
+    "url": "https://github.com/hafedEfheij/FirstProject-hello-microverse/issues"
   },
-  "homepage": "https://github.com/dennis-every/portfolio#readme",
+  "homepage": "https://github.com/hafedEfheij/FirstProject-hello-microverse#readme",
   "devDependencies": {
-    "hint": "^7.1.3",
+    "hint": "^7.1.8",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
