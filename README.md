@@ -64,7 +64,8 @@ To get a local copy up and running, follow these steps.
 
 ```sh
   cd my-folder
-  git git@github.com:hafedEfheij/Portfolio-setup-and-mobile-first.git
+  git git@github.com:hafedEfheij/-Portfolio.git
+  
 ```
 
 ### Prerequisites
@@ -114,7 +115,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Deployed with github pages at:
-- https://github.com/hafedEfheij/Portfolio-setup-and-mobile-first
+- https://github.com/hafedEfheij/-Portfolio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,6 +127,12 @@ To run tests, run the following command:
 
 - GitHub: [@hafed-Efheij](https://github.com/Hafedefheij)
 - LinkedIn: [Hafed-Efehij](https://linkedin.com/in/hafedefheij)
+
+
+👤 **Manuel Sánchez**
+
+- GitHub: [@githubhandle](https://github.com/Luffytaro22)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
