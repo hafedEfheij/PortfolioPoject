@@ -16,10 +16,6 @@ fieldset {
 
 /* HEADER TOOLBAR SECTION */
 
-.flex {
-  display: flex;
-}
-
 #toolbar {
   box-sizing: border-box;
   position: fixed;
@@ -30,6 +26,7 @@ fieldset {
   background: #fff;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
   z-index: 9999;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -37,6 +34,7 @@ fieldset {
   font-size: 1.125rem;
   font-weight: 700;
   color: #6070ff;
+  display: flex;
   padding: 10px;
   align-items: center;
   text-decoration: none;
@@ -44,6 +42,7 @@ fieldset {
 
 #menu-bars-container {
   padding-right: 10px;
+  display: flex;
   align-items: center;
 }
 
@@ -69,6 +68,7 @@ fieldset {
   }
 
   #menu {
+    display: flex;
     list-style: none;
   }
 
@@ -103,6 +103,7 @@ fieldset {
 #headline {
   padding: 0;
   margin: 0;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -115,6 +116,7 @@ fieldset {
   line-height: 2.5rem;
   font-weight: 700;
   color: #172b4d;
+  display: flex;
   align-items: flex-end;
 }
 
@@ -158,6 +160,7 @@ fieldset {
     border-bottom: 77px solid #fff;
     border-left: 35px solid #fff;
     padding: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -201,6 +204,7 @@ fieldset {
 .work-card__article {
   padding: 0;
   margin: 0;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 12px;
@@ -243,6 +247,7 @@ fieldset {
   list-style-type: none;
   padding: 6px 0;
   margin: 0;
+  display: flex;
   gap: 12px;
 }
 
@@ -263,6 +268,7 @@ fieldset {
   list-style-type: none;
   padding: 3px 0;
   margin: 0;
+  display: flex;
 }
 
 .work-card__technologies > li {
@@ -394,6 +400,7 @@ fieldset {
 #about {
   padding: 0;
   margin: 0;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -408,6 +415,7 @@ fieldset {
 #description {
   padding: 0;
   margin: 0;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   row-gap: 12px;
@@ -424,6 +432,7 @@ fieldset {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   row-gap: 12px;
@@ -437,6 +446,7 @@ fieldset {
   min-height: 72px;
   font-weight: 500;
   font-size: 1.25rem;
+  display: flex;
   justify-content: space-between;
   color: #344563;
   padding: 24px 12px;
