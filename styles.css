@@ -324,3 +324,12 @@ header {
   align-items: center;
   padding: 10px;
 }
+
+/* Added a transition to the social-icons when the mouse it's over them */
+#social-icons .icon {
+  transition: all 0.5s ease-in-out;
+}
+
+#social-icons .icon:hover {
+  transform: translate(20%, 20%);
+}
