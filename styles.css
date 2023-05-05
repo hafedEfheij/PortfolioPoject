@@ -333,3 +333,20 @@ header {
 #social-icons .icon:hover {
   transform: translate(20%, 20%);
 }
+
+/* Animation to the headline changing the opacity when it's loaded */
+#headline-container {
+  animation-name: headline;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes headline {
+  from {
+    filter: opacity(0);
+  }
+
+  to {
+    filter: opacity(1);
+  }
+}
