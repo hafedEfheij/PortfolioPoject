@@ -104,6 +104,8 @@ fieldset {
   font-weight: 500;
   color: #7f8cff;
   text-transform: uppercase;
+  font-size: 17px;
+  margin-top: -13px;
 }
 
 #social-icons {
@@ -117,8 +119,8 @@ fieldset {
 .icon,
 .icon > a {
   color: #505f79;
-  margin-right: 12px;
-  font-size: 1.5rem;
+  margin-right: 8px;
+  font-size: 1.3rem;
   line-height: 1.5rem;
 }
 
@@ -684,5 +686,14 @@ input {
 
   .mobile {
     display: none;
+  }
+
+  h2.header {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  #about-text {
+    margin-top: -8px;
   }
 }
