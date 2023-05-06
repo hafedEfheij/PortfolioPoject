@@ -15,7 +15,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -140,11 +139,8 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Make MORE button on the home page functional]**
-- [ ] **[Tickets page]**
-- [ ] **[Schedula page]**
+- [ ] **[Mke the website responsive with JS]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
