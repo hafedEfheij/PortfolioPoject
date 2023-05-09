@@ -17,6 +17,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
   </head>
   <body>
     <!-- HEADER TOOLBAR SECTION -->
@@ -440,44 +443,20 @@
             action="https://formspree.io/f/xoqbgwdl"
           >
             <fieldset id="contact-form-fieldset">
-              <p>
-                <label>
-                  <input
-                    name="name"
-                    id="name"
-                    type="text"
-                    placeholder="Enter your name"
-                    maxlength="30"
-                    required
-                  />
-                </label>
-              </p>
-              <p>
-                <label>
-                  <input
-                    name="email"
-                    id="email"
-                    type="email"
-                    placeholder="Enter your email"
-                    required
-                /></label>
-              </p>
-              <p>
-                <label>
-                  <textarea
-                    name="message"
-                    id="message"
-                    placeholder="Write your message here"
-                    maxlength="500"
-                    required
-                  ></textarea>
-                </label>
-              </p>
-              <p>
-                <button id="btn-contact-form" type="submit">
-                  Get in touch
-                </button>
-              </p>
+                  <div class="mb-3 mt-3">
+                    <input type="name" class="form-control" id="name" placeholder="Enter your name" maxlength="30" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Enter your Email Address" required>
+                  </div>
+                  <div class="mb-3">
+                  <textarea class="form-control" rows="5" id="message" name="message" placeholder="Write your message here"
+                   maxlength="500"
+                    required></textarea>
+                  </div>
+              <div class="mb-3">
+                <button type="submit" class="btn" id="btn-contact-form">Get in touch</button>
+              </div>
             </fieldset>
           </form>
         </div>
