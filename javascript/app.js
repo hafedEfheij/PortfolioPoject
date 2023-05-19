@@ -203,7 +203,12 @@ const cardClickHandler = (id) => {
   closeWorkModalBtn.addEventListener('click', closeWorkModalHandler);
 };
 
-
+const worksActivateLinkHandler = () => {
+  const workCards = document.querySelectorAll('.work-card');
+  workCards.forEach((card, index) => {
+    card.addEventListener('click', () => cardClickHandler(index));
+  });
+};
 
 window.onload = () => {
   worksLoadHandler();
