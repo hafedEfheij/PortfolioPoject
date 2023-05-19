@@ -11,3 +11,6 @@ function closeMenuHandler() {
   mobileMenu.classList.replace('d-flex', 'd-none');
 }
 
+menuBars.addEventListener('click', openMenuHandler);
+closeMenuBtn.addEventListener('click', closeMenuHandler);
+mobileLinks.addEventListener('click', closeMenuHandler);
