@@ -123,7 +123,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Deployed with github pages at:
-- https://github.com/hafedEfheij/-Portfolio
+- https://hafedefheij.github.io/PortfolioPoject/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
