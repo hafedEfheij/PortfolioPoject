@@ -7,8 +7,6 @@ form.addEventListener('submit', (event) => {
   if (email.value === email.value.toLowerCase()) {
     form.submit();
     email.textContent = '';
-  } else {
-    alert.classList.replace('d-none', 'd-flex');
-    alert.textContent = 'Email must be lowercase - form not submitted!';
+  } 
   }
 });
