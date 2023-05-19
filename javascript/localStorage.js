@@ -67,15 +67,7 @@ messageInput.addEventListener('change', () => {
 });
 
 // This function retrieves the form data from local storage and populates the form fields with it
-function retrieveData() {
-  const data = availableStorage.getItem('contactFormData');
-  const parseData = JSON.parse(data);
-  if (data?.length > 0) {
-    const { name, email, message } = parseData;
-    nameInput.value = name || '';
-    emailInput.value = email || '';
-    messageInput.value = message || '';
-  }
+
 }
 
 // This event listener calls the retrieveData() function when the window loads
