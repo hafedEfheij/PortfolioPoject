@@ -739,6 +739,7 @@ input {
   height: 100vh;
   z-index: 9999;
   background: #6070ff;
+  opacity: 0.93;
   mix-blend-mode: multiply;
   backdrop-filter: blur(10px);
 }
